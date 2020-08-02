@@ -18,6 +18,20 @@ canvas {
     /* IE                            */
 }
 
+input {
+    margin: 0px auto;
+    margin-top: 2em;
+}
+
+#upload {
+    display: block;
+}
+div {
+    text-align: center;
+}
+
 body {
-    background-color: #333;
+    background-color: #111;
+    font-family: sans-serif;
+    color: #ddd;
 }
