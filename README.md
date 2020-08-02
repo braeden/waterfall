@@ -1,6 +1,6 @@
 # Waterfall
 
-## This is a tiny experiment: converting an image into audio to be rendered on an spectrogram waterfall
+## Tiny experiment: converting an image into audio to be rendered on an spectrogram waterfall
 -------
 
 # Examples
@@ -15,8 +15,7 @@
 <img src="img/lenna.png" width="190">
 ----
 
-<img src="examples/example.gif" width="300">
-
+#### [Video](https://photos.app.goo.gl/2zgfC6drr9BkNQFr8)
 
 
 
@@ -52,5 +51,7 @@ You should see something roughly displaying the image as the audio plays! You ca
 
 
 We go row by row in the image coverting pixels to the frequency domain -> this collection of sine waves is played as audio -> a spectrogram uses an FFT to capture the values of every frequency -> the spectrogram uses a waterfall to map these changing frequencies over the time domain -> Our image is roughly recreated in the audio waterfall
+
+------
 
 There's almost certainly much better ways to do this, but I thought it was pretty neat, and I tried to do it without looking at external resources -- here's a good example http://www.bastwood.com/?page_id=10!
