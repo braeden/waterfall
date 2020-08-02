@@ -6,14 +6,14 @@
 # Examples
 
 <img src="examples/heart.jpg" width="250">
-<img src="img/heart.svg" width="200">
-----
+<img src="examples/heart-org.png" width="200">
+-------
 <img src="examples/fingerprint.jpg" width="250">
-<img src="img/fingerprint.svg" width="200">
-----
+<img src="examples/fingerprint-org.png" width="200">
+-------
 <img src="examples/lenna.jpg" width="250">
-<img src="img/lenna.png" width="190">
-----
+<img src="examples/lenna-org.png" width="190">
+-------
 
 #### [Video](https://photos.app.goo.gl/2zgfC6drr9BkNQFr8)
 
