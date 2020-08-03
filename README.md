@@ -7,6 +7,7 @@
 
 <img src="examples/heart.jpg" width="250">
 <img src="examples/heart-org.png" width="200">
+<img src="examples/js-waterfall.png" width="300">
 -------
 <img src="examples/fingerprint.jpg" width="250">
 <img src="examples/fingerprint-org.png" width="200">
@@ -20,19 +21,26 @@
 
 
 
+
 # Set it up yourself
 
 **Tip:** Simpler images with more black pixels than white work the best for this program
 
-1. Download a spectrogram app with waterfall capabilities (on Android I recommend [Spectroid](https://play.google.com/store/apps/details?id=org.intoorbit.spectrum&hl=en_US))
+1. Visit https://braeden.xyz/waterfall
+
+2. Spectrogram Waterfall:
+- Either download a spectrogram app with waterfall capabilities (on Android I recommend [Spectroid](https://play.google.com/store/apps/details?id=org.intoorbit.spectrum&hl=en_US))
     - Some settings to start: 
         - Audio: 96kHz sampling, 2048 bins, 10ms transform interval
         - Display: **Linear axis**, 2/3 screen waterfall
-2. Visit https://braeden.xyz/waterfall
+- Or click the waterfall button to get a JS waterfall
+
 3. Upload your own image or use the default one
-4. Tap on the image with the spectrogram open!
+4. Tap on the hit the play button with your volume up!
 
 You should see something roughly displaying the image as the audio plays! You can play it on the same device or a different one, and the output should be accurate!
+
+Issues: Try tweaking the row delay to stretch and shrink each frequency sample or chaning the volume of the device
 
 **Note:** You'll notice there's probably a lot of noise and frequency resonance as well.
 
@@ -54,4 +62,4 @@ We go row by row in the image coverting pixels to the frequency domain -> this c
 
 ------
 
-There's almost certainly much better ways to do this, but I thought it was pretty neat, and I tried to do it without looking at external resources -- here's a good example http://www.bastwood.com/?page_id=10!
+There's almost certainly much better ways to do this, but I thought it was pretty neat, and I tried to do it without looking at external resources (except for [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API))!

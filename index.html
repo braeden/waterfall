@@ -5,16 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waterfall</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.0/milligram.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <canvas id="canvas"></canvas>
+
+
     <div>
-        <input type="file" id="upload" accept="image/png, image/jpeg, image/svg+xml">
-        <input type="number" name="rowLength" id="rowLength" min=".01" max=".5" step=".01" value=".15">
-        <label for="rowLength">Row Length (ms)</label>
+        <button onclick="document.getElementById('upload').click();">Load Image</button>
+        <input style="display: none;" type="file" id="upload" accept="image/png, image/jpeg, image/svg+xml">
+        <button id="startAudio">Play</button>
+        <button id="startWaterfall">Waterfall</button>
+        <input placeholder="Row Delay (ms)" type="number" name="rowLength" id="rowLength" min=".01" max=".5" step=".01">
     </div>
+    <canvas id="spectrogram"></canvas>
+
+
     <script src="js/index.js"></script>
 </body>
 
